@@ -29,7 +29,7 @@ void MainGame::run(){
                 printf("아직 미구현 상태입니다.\n");
                 break;
             default:
-                printf("잘못된 입력입니다.\n 다시 입력해주십시오.\n");
+                printf("잘못된 입력입니다.\n다시 입력해주십시오.\n");
                 break;
         }
     }
@@ -38,8 +38,17 @@ void MainGame::run(){
 
 // privaet
 void MainGame::printActionMenu(){
-    printf("아직 미구현 상태입니다.\n");
+    //printf("아직 미구현 상태입니다.\n");
+    printf("==============================\n");
+    printf("메뉴 : \n");
+    printf("0. 종료\n");
+    printf("1. 게이머 관련 작업\n");
+    printf("2. 주사위 관련 작업\n");
+    printf("\n");
+    printf("입력 : ");
 }
 void MainGame::getAction(){
-    printf("아직 미구현 상태입니다.\n");
+    //printf("아직 미구현 상태입니다.\n");
+    cin >> action;
+    printf("==============================\n");
 }

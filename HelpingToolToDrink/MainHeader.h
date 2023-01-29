@@ -14,5 +14,6 @@
 #include <time.h>
 #include <math.h>
 
+using namespace std;
 
 #endif /* MainHeader_h */
