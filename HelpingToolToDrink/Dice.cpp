@@ -41,22 +41,6 @@ void Dice::run(){
         }
     }
 }
-
-// private
-void Dice::printMenu(){
-    printf("==============================\n");
-    printf("메뉴 : \n");
-    printf("0. 주사위 종료\n");
-    printf("1. 주사위 정보 설정\n");
-    printf("2. 주사위 굴리기\n");
-    printf("\n");
-    printf("입력 : ");
-    
-}
-void Dice::getAction(){
-    cin >> action;
-    printf("==============================\n");
-}
 void Dice::getDatas(){
     printf("주사위의 최소값 : ");
     cin >> minNum;
@@ -70,4 +54,20 @@ void Dice::getDatas(){
 void Dice::rollDice(){
     diceNum = rand()%range + 1;
     printf("주사위 값 : %d\n", diceNum);
+}
+
+
+// private
+void Dice::printMenu(){
+    printf("==============================\n");
+    printf("메뉴 : \n");
+    printf("0. 주사위 종료\n");
+    printf("1. 주사위 정보 설정\n");
+    printf("2. 주사위 굴리기\n");
+    printf("\n");
+    printf("입력 : ");
+}
+void Dice::getAction(){
+    cin >> action;
+    printf("==============================\n");
 }

@@ -10,6 +10,7 @@
 		BCD59A9B29869BA000F92D9A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD59A9A29869BA000F92D9A /* main.cpp */; };
 		BCD59AA429869D1400F92D9A /* MainGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD59AA229869D1400F92D9A /* MainGame.cpp */; };
 		BCD59AA72986AACC00F92D9A /* Dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD59AA52986AACC00F92D9A /* Dice.cpp */; };
+		BCD59AAA2986AF9A00F92D9A /* Gamers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BCD59AA82986AF9A00F92D9A /* Gamers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,9 @@
 		BCD59AA329869D1400F92D9A /* MainGame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MainGame.hpp; sourceTree = "<group>"; };
 		BCD59AA52986AACC00F92D9A /* Dice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dice.cpp; sourceTree = "<group>"; };
 		BCD59AA62986AACC00F92D9A /* Dice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dice.hpp; sourceTree = "<group>"; };
+		BCD59AA82986AF9A00F92D9A /* Gamers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gamers.cpp; sourceTree = "<group>"; };
+		BCD59AA92986AF9A00F92D9A /* Gamers.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gamers.hpp; sourceTree = "<group>"; };
+		BCD59AAB2986BC8800F92D9A /* DevList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,9 @@
 				BCD59AA329869D1400F92D9A /* MainGame.hpp */,
 				BCD59AA52986AACC00F92D9A /* Dice.cpp */,
 				BCD59AA62986AACC00F92D9A /* Dice.hpp */,
+				BCD59AA82986AF9A00F92D9A /* Gamers.cpp */,
+				BCD59AA92986AF9A00F92D9A /* Gamers.hpp */,
+				BCD59AAB2986BC8800F92D9A /* DevList.h */,
 			);
 			path = HelpingToolToDrink;
 			sourceTree = "<group>";
@@ -133,6 +140,7 @@
 			files = (
 				BCD59AA72986AACC00F92D9A /* Dice.cpp in Sources */,
 				BCD59AA429869D1400F92D9A /* MainGame.cpp in Sources */,
+				BCD59AAA2986AF9A00F92D9A /* Gamers.cpp in Sources */,
 				BCD59A9B29869BA000F92D9A /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
