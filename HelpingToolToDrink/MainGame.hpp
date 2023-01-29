@@ -9,6 +9,7 @@
 #define MainGame_hpp
 
 #include "MainHeader.h"
+#include "Dice.hpp"
 
 class MainGame{
 public:
@@ -17,6 +18,7 @@ public:
     
     void run();
 private:
+    Dice * dice;
     int action;
     
     void printActionMenu();

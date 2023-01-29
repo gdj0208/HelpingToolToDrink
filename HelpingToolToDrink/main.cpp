@@ -8,7 +8,10 @@
 #include "MainHeader.h"
 #include "MainGame.hpp"
 
+
 int main() {
+    
+    srand(time(NULL));
     
     MainGame * game = new MainGame;
     if(game == NULL) {printf("allocation failed!\n");}

@@ -8,6 +8,7 @@
 #include "MainGame.hpp"
 
 MainGame::MainGame(){
+    dice = new Dice;
     action = 1;
 }
 MainGame::~MainGame(){}
@@ -26,7 +27,8 @@ void MainGame::run(){
                 printf("아직 미구현 상태입니다.\n");
                 break;
             case 2:         // 2 : 주사위 관련
-                printf("아직 미구현 상태입니다.\n");
+                //printf("아직 미구현 상태입니다.\n");
+                dice->run();
                 break;
             default:
                 printf("잘못된 입력입니다.\n다시 입력해주십시오.\n");
