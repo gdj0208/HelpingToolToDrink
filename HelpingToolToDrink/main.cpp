@@ -6,7 +6,15 @@
 //
 
 #include "MainHeader.h"
+#include "MainGame.hpp"
 
 int main() {
+    
+    MainGame * game = new MainGame;
+    if(game == NULL) {printf("allocation failed!\n");}
+    
+    game->run();
+    
+    delete game;
     
 }
